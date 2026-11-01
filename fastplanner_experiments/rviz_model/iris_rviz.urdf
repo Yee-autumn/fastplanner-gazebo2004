@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<robot name="iris_rviz">
+  <link name="base_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="file:///home/robot/PX4-Autopilot/Tools/simulation/gazebo-classic/sitl_gazebo-classic/models/iris/meshes/iris.stl"
+              scale="1 1 1"/>
+      </geometry>
+      <material name="iris_grey">
+        <color rgba="0.35 0.35 0.35 1.0"/>
+      </material>
+    </visual>
+  </link>
+</robot>
